@@ -1,25 +1,170 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]> <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]> <html class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><!--<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<!--<![endif]-->
 <html lang="en">
-  <head>
-    <title>Pixel Perfect Mockups</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000"/>
-    <meta name="description" content="Pixel Perfect Mockups - Magic Afternoon" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <!-- Bootstrap -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" /> -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script> -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js"></script> -->
-    
-    <link rel="stylesheet" href="main.css" />
-  </head>
-  <body>
-    <main id="root"></main>
-    <footer></footer>
-  </body>
+<head>
+  <title>Pixel Perfect Mockups</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Pixel Perfect Mockups - Magic Afternoon" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  </script>
+  <script src="main.js"></script>
+
+  <link rel="stylesheet" href="main.css" />
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+  <main id="root">
+    <div class="jumbotron">
+      <div class="container">
+        <img src="logo.png" style="margin-bottom: 20px" />
+        <h1 class="display-4">A tabletop card game in which each of the 100 cards represent a different Kickstarter backer.</h1>
+        <img class="hero" src="hero-2.png" />
+        <a href="about.html" target="_blank">
+          <h2>Support Cameo on Kickstarter</h2>
+        </a>
+      </div>
+    </div>
+    <div class="main container">
+      <h1>Basic Games</h1>
+
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Three on Three
+                <span class="cross">+</span>
+
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <h4>Some text here
+              </h4>
+
+              <div class="row">
+                <div class="col-4">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                  officia aute, non cupidatat skateboard dolor brunch.</div>
+                <div class="col-8">
+                  <p>In quis leo vehicula, aliquam lectus volutpat, fermentum diam. Fusce turpis lectus, rhoncus ut mauris id,
+                    pulvinar maximus ante. Nulla nunc lacus, aliquet non ligula at, feugiat vulputate eros. Integer nec interdum
+                    nisi. Vivamus scelerisque purus quis justo sollicitudin cursus. Cras eu erat sed ante eleifend ornare.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque
+                    eget libero eu ante imperdiet lacinia.
+                  </p>
+                  <p>Etiam dui massa, dictum id consectetur non, tempor et risus. Sed ac neque nec urna varius dignissim vel
+                    et lorem. Sed vehicula elit in odio mollis, vel convallis eros aliquet. Donec varius lectus non luctus
+                    pellentesque. Fusce pellentesque enim sem. Phasellus dignissim vulputate augue, eget placerat ante malesuada
+                    vitae. Vivamus vel ante et turpis euismod dapibus et sit amet dui.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                The Secret Friend Game
+                <span class="cross">+</span>
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <h4>Some text here
+              </h4>
+
+              <div class="row">
+                <div class="col-4">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                  officia aute, non cupidatat skateboard dolor brunch.</div>
+                <div class="col-8">
+                  <p>In quis leo vehicula, aliquam lectus volutpat, fermentum diam. Fusce turpis lectus, rhoncus ut mauris id,
+                    pulvinar maximus ante. Nulla nunc lacus, aliquet non ligula at, feugiat vulputate eros. Integer nec interdum
+                    nisi. Vivamus scelerisque purus quis justo sollicitudin cursus. Cras eu erat sed ante eleifend ornare.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque
+                    eget libero eu ante imperdiet lacinia.
+                  </p>
+                  <p>Etiam dui massa, dictum id consectetur non, tempor et risus. Sed ac neque nec urna varius dignissim vel
+                    et lorem. Sed vehicula elit in odio mollis, vel convallis eros aliquet. Donec varius lectus non luctus
+                    pellentesque. Fusce pellentesque enim sem. Phasellus dignissim vulputate augue, eget placerat ante malesuada
+                    vitae. Vivamus vel ante et turpis euismod dapibus et sit amet dui.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                The Bachelor Game
+                <span class="cross">+</span>
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <h4>Some text here
+              </h4>
+
+              <div class="row">
+                <div class="col-4">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                  officia aute, non cupidatat skateboard dolor brunch.</div>
+                <div class="col-8">
+                  <p>In quis leo vehicula, aliquam lectus volutpat, fermentum diam. Fusce turpis lectus, rhoncus ut mauris id,
+                    pulvinar maximus ante. Nulla nunc lacus, aliquet non ligula at, feugiat vulputate eros. Integer nec interdum
+                    nisi. Vivamus scelerisque purus quis justo sollicitudin cursus. Cras eu erat sed ante eleifend ornare.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque
+                    eget libero eu ante imperdiet lacinia.
+                  </p>
+                  <p>Etiam dui massa, dictum id consectetur non, tempor et risus. Sed ac neque nec urna varius dignissim vel
+                    et lorem. Sed vehicula elit in odio mollis, vel convallis eros aliquet. Donec varius lectus non luctus
+                    pellentesque. Fusce pellentesque enim sem. Phasellus dignissim vulputate augue, eget placerat ante malesuada
+                    vitae. Vivamus vel ante et turpis euismod dapibus et sit amet dui.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <p>Cameo Game
+            <br />123 Fake St.
+            <br />San Diego, CA 92103</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
